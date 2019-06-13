@@ -1,0 +1,6 @@
+export PS1="\\$ \h:\W \[$(tput sgr0)\]"
+
+function ytdl() {
+    youtube-dl -x --audio-format "mp3" -o "%(title)s.%(ext)s" $1
+}
+
