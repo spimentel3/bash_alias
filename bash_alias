@@ -4,3 +4,6 @@ function ytdl() {
     youtube-dl -x --audio-format "mp3" -o "%(title)s.%(ext)s" $1
 }
 
+function dirSize() {
+    du -h -d 1 | sort -hr
+}
