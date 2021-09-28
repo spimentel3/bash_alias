@@ -18,3 +18,6 @@ function ytdl() {
 function dirSize() {
     du -h -d 1 | sort -hr
 }
+
+alias gcwork="google-chrome --user-data-dir=/home/pat/Desktop/google-chrome-work/"
+alias gcxup="google-chrome --user-data-dir=/home/pat/Desktop/google-chrome-xup/"
